@@ -7,7 +7,7 @@ sudo apt update
 sudo apt dist-upgrade -y
 
 #Updates the firmware
-sudo rpi-update
+sudo DEBIAN_FRONTEND=noninteractive rpi-update
 
 #Replaces the source from Buster to Bullseye
 while read line; do
